@@ -4,6 +4,19 @@ Turn any job you do repeatedly into a playbook a local AI agent can run
 without you. One agent, plain Markdown playbooks, no orchestrator, no
 custom code.
 
+## System map
+
+![The delegation loop](markmap.svg)
+
+The diagram above is generated from `markmap.md`. To regenerate after the
+system changes:
+
+```powershell
+npx markmap-cli markmap.md -o markmap.svg
+```
+
+Edit `markmap.md`, never the SVG — the markdown is the source of truth.
+
 ## How it works
 
 The loop has three stages. Each stage is driven by a saved prompt — you
