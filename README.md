@@ -43,8 +43,8 @@ the playbook and re-run the job.
 ## Quick start
 
 ```powershell
-cd C:\Users\AKHILESHWAR\Desktop\delegation_ai
-gemini -m gemini-2.5-flash
+npm install -g @google/gemini-cli
+gemini
 ```
 
 Then, replacing `resume-to-latex` with your own kebab-case job name:
