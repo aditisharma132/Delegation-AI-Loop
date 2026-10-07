@@ -6,7 +6,7 @@ custom code.
 
 ## System map
 
-![The delegation loop](markmap.svg)
+![The delegation loop](markmap.md)
 
 The diagram above is generated from `markmap.md`. To regenerate after the
 system changes:
