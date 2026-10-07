@@ -6,16 +6,11 @@ custom code.
 
 ## System map
 
-![The delegation loop](markmap.md)
+<img width="1155" height="665" alt="{D269E130-4568-4BDE-98F1-61FE44EBEC3E}" src="https://github.com/user-attachments/assets/408942ba-24bd-4da1-9474-e651f79b441e" />
+(markmap.md)
 
 The diagram above is generated from `markmap.md`. To regenerate after the
 system changes:
-
-```powershell
-npx markmap-cli markmap.md -o markmap.svg
-```
-
-Edit `markmap.md`, never the SVG — the markdown is the source of truth.
 
 ## How it works
 
